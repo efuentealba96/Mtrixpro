@@ -1,0 +1,3 @@
+useDynLib(Mtrixpro, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
