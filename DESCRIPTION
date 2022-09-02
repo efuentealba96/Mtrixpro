@@ -5,7 +5,7 @@ Version: 1.0
 Date: 2022-08-31
 Author: Eliacer Fuentealba
 Maintainer: Eliacer Fuentealba <efuentealba038@gmail.com>
-Description: The package uses Rcp to optimize matrix functions like matrix product,maxmin convulsion, and includes enhancements to the cbind and rbind functions.
+Description: The package uses Rcpp to optimize matrix functions
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.9)
 LinkingTo: Rcpp

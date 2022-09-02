@@ -1,18 +1,6 @@
 #include <Rcpp.h>
 using namespace Rcpp;
-//' [[Rcpp::export]]
-//' @name whichMin
-//' @title whichMin
-//' @description Esta funcion devuelve un data.frame en donde se encuentran las 
-//' coordenadas de los valores minimos ubicados dentro de la matriz.
-//' @param A es una matriz numerica de dimención nxm
-//' @return retorna un data.frame
-//' @examples
-//' matriz <- matrix(round(runif(9, 1, 10)), nrow = 3, ncol = 3)
-//' set.seed(123)
-//' result <- whichMin(matriz)
-//' result
-//' @export
+// [[Rcpp::export]]
 DataFrame whichMin(NumericMatrix matrix_A){
   NumericVector rows(matrix_A.nrow(),NumericVector::get_na());
   NumericVector columns(matrix_A.nrow(),NumericVector::get_na());

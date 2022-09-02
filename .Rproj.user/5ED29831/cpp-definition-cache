@@ -1,7 +1,7 @@
 [
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/cbind_rcpp.cpp",
-        "file_last_write": 1662089351.0,
+        "file_last_write": 1662092082.0,
         "definitions": [
             {
                 "usr": "c:@F@cbind_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
@@ -9,14 +9,14 @@
                 "parent_name": "",
                 "name": "cbind_rcpp(Rcpp::NumericMatrix, Rcpp::NumericVector)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/cbind_rcpp.cpp",
-                "line": 18,
+                "line": 4,
                 "column": 15
             }
         ]
     },
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/mMatricial_Rcpp.cpp",
-        "file_last_write": 1662089351.0,
+        "file_last_write": 1662092083.0,
         "definitions": [
             {
                 "usr": "c:@F@mMatrix_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#",
@@ -24,14 +24,14 @@
                 "parent_name": "",
                 "name": "mMatrix_rcpp(Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/mMatricial_Rcpp.cpp",
-                "line": 17,
+                "line": 4,
                 "column": 15
             }
         ]
     },
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/maxMin_rcpp.cpp",
-        "file_last_write": 1662089857.0,
+        "file_last_write": 1662092083.0,
         "definitions": [
             {
                 "usr": "c:@F@maxMin_cpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#",
@@ -39,14 +39,14 @@
                 "parent_name": "",
                 "name": "maxMin_cpp(Rcpp::NumericMatrix, Rcpp::NumericMatrix)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/maxMin_rcpp.cpp",
-                "line": 20,
+                "line": 4,
                 "column": 15
             }
         ]
     },
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/rbind_rcpp.cpp",
-        "file_last_write": 1662089345.0,
+        "file_last_write": 1662092083.0,
         "definitions": [
             {
                 "usr": "c:@F@rbind_rcpp#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
@@ -54,14 +54,14 @@
                 "parent_name": "",
                 "name": "rbind_rcpp(Rcpp::NumericMatrix, Rcpp::NumericVector)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/rbind_rcpp.cpp",
-                "line": 18,
+                "line": 4,
                 "column": 15
             }
         ]
     },
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/whichMax_rcpp.cpp",
-        "file_last_write": 1662089351.0,
+        "file_last_write": 1662092086.0,
         "definitions": [
             {
                 "usr": "c:@F@whichMax#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
@@ -69,14 +69,14 @@
                 "parent_name": "",
                 "name": "whichMax(Rcpp::NumericMatrix)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/whichMax_rcpp.cpp",
-                "line": 16,
+                "line": 4,
                 "column": 11
             }
         ]
     },
     {
         "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/whichMin_rcpp.cpp",
-        "file_last_write": 1662089240.0,
+        "file_last_write": 1662092088.0,
         "definitions": [
             {
                 "usr": "c:@F@whichMin#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
@@ -84,7 +84,7 @@
                 "parent_name": "",
                 "name": "whichMin(Rcpp::NumericMatrix)",
                 "file": "C:/Users/efuen/Universidad/Mencion-2/Mtrixpro/src/whichMin_rcpp.cpp",
-                "line": 16,
+                "line": 4,
                 "column": 11
             }
         ]

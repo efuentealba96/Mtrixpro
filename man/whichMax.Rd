@@ -3,6 +3,9 @@
 \name{whichMax}
 \alias{whichMax}
 \title{whichMax}
+\usage{
+whichMax(A)
+}
 \arguments{
 \item{A}{es una matriz numerica de dimención nxm}
 }
@@ -13,12 +16,10 @@ retorna un data.frame
 Esta funcion devuelve un data.frame en donde se encuentran las 
 coordenadas de los valores maximos ubicados dentro de la matriz.
 }
-\details{
-[[Rcpp::export]]
-}
 \examples{
 matriz <- matrix(round(runif(9, 1, 10)), nrow = 3, ncol = 3)
 set.seed(123)
+matriz
 result <- whichMax(matriz)
 result
 }

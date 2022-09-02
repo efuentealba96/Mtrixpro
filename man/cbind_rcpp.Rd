@@ -3,6 +3,9 @@
 \name{cbind_rcpp}
 \alias{cbind_rcpp}
 \title{cbind_rcpp}
+\usage{
+cbind_rcpp(A, B)
+}
 \arguments{
 \item{A}{es una matriz numerica de dimención nxm}
 
@@ -15,12 +18,11 @@ matriz con los datos del vector insertados en una nueva columna
 Esta fución une un vector y una matriz siempre y cuando el largo
 del vector sea igual a la candidad de filas que tiene la matriz.
 }
-\details{
-[[Rcpp::export]]
-}
 \examples{
 matriz <- matrix(round(runif(9, 1, 10)), nrow = 3, ncol = 3)
 vector <- c(1:3)
+matriz
+vector
 set.seed(123)
 result <- cbind_rcpp(matriz,vector)
 result

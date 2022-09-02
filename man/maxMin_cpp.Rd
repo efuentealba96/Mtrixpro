@@ -3,6 +3,9 @@
 \name{maxMin_cpp}
 \alias{maxMin_cpp}
 \title{maxMin_cpp}
+\usage{
+maxMin_cpp(A, B)
+}
 \arguments{
 \item{A}{es una matriz numerica de dimención nxn}
 
@@ -14,9 +17,6 @@ regresa una matriz numerica de dimencion nxn
 \description{
 Esta funcion se encarga de buscar el maximo de los minimos de ambas matrices
 para devolver una matriz diferente con los valores encontrados.
-}
-\details{
-[[Rcpp::export]]
 }
 \examples{
 A <- matrix(round(runif(n, min = 0, max = 1), 1), nrow = 3, ncol = 3)
